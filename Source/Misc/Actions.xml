@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--AvailableCommands.xml-->
+<!--This should be in the same folder as the plugin dll-->
+<AvailableCommands>
+    <command>
+        <name>vcPluginSample</name>
+        <commandString />
+        <info>
+            <params />
+            <helplink>http://voxcommando.com/mediawiki/index.php?title=Actions#PluginName</helplink>
+            <description>
+                <default>Description of the plugin</default>
+                <de />
+            </description>
+        </info>
+        <command>
+            <name>ActionName1</name>
+            <commandString>vcPluginSample.ActionName1</commandString>
+            <info>
+                <params>1</params>
+                <parameter name="param1" type="string" optional="False">Description of param</parameter>
+                <helplink>http://voxcommando.com/mediawiki/index.php?title=Actions#ActionName1</helplink>
+                <description>
+                    <default>Description of the action</default>
+                    <de />
+                </description>
+            </info>
+        </command>
+    </command>
+</AvailableCommands>
